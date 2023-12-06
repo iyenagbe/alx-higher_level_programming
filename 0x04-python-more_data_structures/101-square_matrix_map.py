@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# 101-square_matrix_map.py
+# Brennan D Baraban <375@holbertonschool.com
 
-def square_matrix_map(matrix=[]):
-    return (list(map(lambda x: list(map(lambda y: y ** 2, x[:])), matrix)))
+def multiply_list_map(my_list=[], number=0):
+    return (list(map((lambda x: x * number), my_list)))
