@@ -3,9 +3,12 @@
 # Brennan D Baraban <375@hplbertonschool.com>
 
 
-
 def complex_delete(a_dictionary, value):
-    for key in list(a_dictionary):
-        if a_dictionary[key] == value:
-            del a_dictionary[key]
-    return a_dictionary
+    """Delete keys with a specific value in a dictionary."""
+    while value in a_dictionary.values():
+        for i, v in a_dictionary.items():
+            if v == value:
+                del a_dictionary[i]
+                break
+
+    return (a_dictionary)
