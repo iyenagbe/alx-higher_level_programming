@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-"""Module for lockedclass"""
+"""Defines a locked class."""
+
 
 class LockedClass:
-    """class LockedClass"""
-    def __init__(self):
-        self.lock = threading.Lock()
-        Lock.acquire(True)
+    """
+    Prevent the user from instantiating new LockedClass attributes
+    for anything but attributes called 'first_name'.
+    """
+
+    __slots__ = ["first_name"]
