@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+
+# Iyenagbe. O. Raymond @ALX_Africa
+
 """Defines a matrix multiplication function using NumPy."""
 import numpy as np
 
