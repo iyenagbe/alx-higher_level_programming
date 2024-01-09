@@ -1,11 +1,15 @@
 #!/usr/bin/python3
-"""Module for MyList class"""
+"""
+contains the MyList class
+"""
 
 
 class MyList(list):
-    """MyList class inherits list class attributes"""
-    pass
+    """a subclass of list"""
+    def __init__(self):
+        """initializes the object"""
+        super().__init__()
 
     def print_sorted(self):
-        """Pub Inst Method to print a sorted list"""
+        """prints the sorted list"""
         print(sorted(self))
