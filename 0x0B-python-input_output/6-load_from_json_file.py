@@ -2,6 +2,7 @@
 """Defines a function load_from_json_file."""
 import json
 
+
 def load_from_json_file(filename):
     """Creates an object from json file.
     Args:

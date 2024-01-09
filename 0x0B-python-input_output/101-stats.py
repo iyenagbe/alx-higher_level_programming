@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """A script Reads from standard input and computes metrics."""
 
+
 def print_stats(size, status_codes):
     """Print metrics.
     Args:
